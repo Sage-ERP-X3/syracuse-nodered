@@ -1,3 +1,6 @@
 [submodule "lib/node-red/nodes/node_modules/node-red-node-x3"]
 	path = lib/node-red/nodes/node_modules/node-red-node-x3
 	url = https://github.com/Sage-ERP-X3/node-red-node-x3.git
+[submodule "lib/node-red/nodes/node_modules/node-red-node-awsiot"]
+	path = lib/node-red/nodes/node_modules/node-red-node-awsiot
+	url = https://github.com/Sage-ERP-X3/node-red-node-awsiot.git
