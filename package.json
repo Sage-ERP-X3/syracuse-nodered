@@ -1,0 +1,31 @@
+{
+  "name": "syracuse-nodered",
+  "description": "Node-red for Syracuse",
+  "version": "0.1.0",
+  "author": "Sage",
+  "private": true,
+  "sage": {
+    "x3": {
+      "widgets": [],
+      "extensions": {
+        "contracts": [
+          {
+            "module": "syracuse-nodered/lib/contract-extension"
+          }
+        ],
+        "startup": {
+          "module": "syracuse-nodered/lib/startup"
+        }
+      }
+    }
+  },
+  "dependencies": {
+	"express": "4.13.4",
+    "is-utf8": "^0.2.1",
+    "mqtt": "^1.10.0",
+    "node-red": "^0.13.4",
+    "node-red-node-arduino": "0.0.7",
+    "node-red-node-mongodb": "0.0.5",
+    "proxy-agent": "^2.0.0"
+  }
+}
