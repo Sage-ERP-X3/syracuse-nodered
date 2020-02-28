@@ -24,7 +24,7 @@
     "express": "4.13.4",
     "is-utf8": "^0.2.1",
     "mqtt": "^1.10.0",
-    "node-red": "^0.13.4",
+    "node-red": "^1.0.4",
     "node-red-node-arduino": "0.0.7",
     "node-red-node-mongodb": "0.0.5",
     "proxy-agent": "^2.0.0"
